@@ -3,6 +3,7 @@ import React from 'react';
 function Filter() {
     return (
         <div className="filter-container">
+<b>Filter:</b>
             <select className="filter-todo">
                 <option value="all">All</option>
                 <option value="completed">Completed</option>

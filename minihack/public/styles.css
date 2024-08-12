@@ -1,3 +1,87 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Background */
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; /* Viewport Height */
+}
+
+/* HEADER */
+header {
+  font-size: 2rem; /* Slightly larger header */
+  padding: 2rem 0;
+  text-align: center; /* Center the header text */
+}
+
+#footer {
+  height: 2em;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  position: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  
+}
+
+form .mainInput {
+  display: flex;
+  margin: 0 0.5rem;
+  flex-direction: row;
+  min-width: 300px;
+}
+
+form .prioInput {
+  display: flex;
+  margin: 0 0.5rem;
+  flex-direction: row;
+  min-width: 500px;
+  
+}
+
+form input,
+form button {
+  padding: 0.75rem; /* Adjust padding for better spacing */
+  font-size: 1.25rem; 
+  border: none;
+  margin: 0 0.5rem; /* Add margin between form elements */
+}
+
+form input {
+  border-radius: 5px; /* Add rounded corners */
+}
+
+form button {
+  background: #f67280; /* Different color for the button */
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #c0392b; /* Darker shade on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+
 /* TODO CONTAINER */
 .todo-container {
   display: flex;
@@ -129,17 +213,7 @@ select {
   border-left: 5px solid red;
 }
 
-.todo {
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: translateY(-10px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
+/* 
+Forked of code-along project by OneCode Camp 
+by Yatt-code 
+*/

@@ -1,0 +1,15 @@
+h1{
+    font-size: 2rem; /* Slightly larger header */
+    padding: 2rem 0;
+    text-align: center; /* Center the header text */
+}
+
+h3{
+    text-align: center; /* Center the text */
+}
+
+#BtnLocation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

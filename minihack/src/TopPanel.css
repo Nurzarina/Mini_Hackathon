@@ -1,0 +1,19 @@
+#Date{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#Time{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#Weather{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#topPanel{
+    border: 1px solid black;
+    border-radius: 5px;
+}
